@@ -5,7 +5,7 @@
   "exclude": ["src/", "vite.config.ts"],
   "tasks": {
     "bundle": "deno run --allow-all npm:vite build",
-    "build": "deno desktop --include=dist/bundle.js main.ts",
+    "build": "deno desktop --include=dist/bundle.js --output Dent main.ts",
     "dev": "deno run --allow-read --allow-net main.ts"
   },
   "imports": {
