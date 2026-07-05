@@ -6,8 +6,8 @@ pnpm-lock.yaml
 yarn.lock
 
 # build artifacts
-Dent.app/
-Dent.exe
 Dent
+Dent.app/
+Dent.dylib
+Dent.exe
 dist/
-node_modules/
