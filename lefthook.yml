@@ -1,0 +1,9 @@
+[pre-commit.commands.fmt]
+glob = "*.{ts,svelte,json,md}"
+run = "deno fmt {staged_files}"
+stage_fixed = true
+
+[pre-commit.commands.lint]
+glob = "*.{ts,svelte}"
+run = "deno lint --fix {staged_files}"
+stage_fixed = true

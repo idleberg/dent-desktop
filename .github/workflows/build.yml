@@ -1,0 +1,40 @@
+name: Build
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: macos-latest
+            target: aarch64-apple-darwin
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Bundle frontend
+        run: deno task bundle
+
+      - name: Build desktop app
+        run: deno task build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dent-${{ matrix.target }}
+          path: |
+            Dent.app/
+            Dent.exe

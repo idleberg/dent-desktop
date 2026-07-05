@@ -1,0 +1,13 @@
+# package manager
+node_modules/
+bun.lockb
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# build artifacts
+Dent.app/
+Dent.exe
+Dent
+dist/
+node_modules/
