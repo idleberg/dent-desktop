@@ -1,7 +1,9 @@
 # Dent Desktop
 
-A desktop application for [NSIS](https://nsis.sourceforge.io), built with
-[Deno](https://deno.com) and [Svelte](https://svelte.dev).
+> A desktop application for [dent](https://www.npmjs.org/package/@nsis/dent),
+> the opinionated [NSIS](https://nsis.sourceforge.io/) code formatter.
+
+![Screenshot](https://raw.githubusercontent.com/idleberg/dent-desktop/main/resources/screenshot.png)
 
 ## Prerequisites
 
