@@ -5,6 +5,11 @@
 
 ![Screenshot](https://raw.githubusercontent.com/idleberg/dent-desktop/main/resources/screenshot.png)
 
+> [!NOTE]
+> I have little to no interest in creating a Desktop app for `dent`, but I was intrigued to try out
+> [Deno Desktop](https://docs.deno.com/runtime/desktop/). Don't bet on longtime support for this
+> app, it's merely a fun experiment.
+
 ## Prerequisites
 
 Development requires [Deno](https://deno.com) v2.9 or later. You may use
