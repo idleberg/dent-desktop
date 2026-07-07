@@ -9,7 +9,8 @@ for [dent](https://www.npmjs.org/package/@nsis/dent),
 > [!IMPORTANT]
 > I have little to no interest in creating a "serious" Desktop app for `dent`, but I was intrigued
 > to try out [Deno Desktop](https://docs.deno.com/runtime/desktop/). I actually think it's a stupid
-> idea that serves better in the browser. So don't bet on this project, it's  merely a fun experiment.
+> idea to bundle a website into a desktop application. So don't bet on this project, it's merely a
+> fun experiment.
 
 ## Prerequisites
 
