@@ -1,5 +1,6 @@
 {
   "name": "@nsis/dent-desktop",
+  "version": "0.1.0",
   "exports": "./main.ts",
   "private": true,
   "exclude": ["src/", "vite.config.ts"],
