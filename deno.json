@@ -36,7 +36,8 @@
   },
   "desktop": {
     "app": {
-      "name": "Dent"
+      "name": "Dent",
+      "identifier": "org.nsis-dev.dent"
     }
   }
 }
