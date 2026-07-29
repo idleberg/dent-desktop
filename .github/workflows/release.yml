@@ -30,11 +30,8 @@ jobs:
       - name: Install dependencies
         run: deno install
 
-      - name: Bundle UI
-        run: deno task bundle
-
       - name: Build desktop app
-        run: deno desktop --all-targets --include=dist/bundle.js --output Dent main.ts
+        run: deno task build
 
       - name: Get version
         id: version

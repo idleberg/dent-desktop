@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Dent</title>
+		<style>
+			/* dent-ui ships its styles inside the bundle, so nothing is themed until
+			   the app mounts. These two rules cover the page background for that
+			   window; they mirror --bg from dent-ui's :root and [data-theme="light"]. */
+			html {
+				background: #1e1e2e;
+			}
+
+			html[data-theme='light'] {
+				background: #eff1f5;
+			}
+		</style>
+		<script>
+			// Follow the OS before first paint. The stored preference is applied by
+			// the app once it has read it back from the Deno side.
+			if (matchMedia('(prefers-color-scheme: light)').matches) {
+				document.documentElement.dataset.theme = 'light';
+			}
+		</script>
+	</head>
+	<body>
+		<div id="app"></div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>

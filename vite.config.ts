@@ -8,11 +8,6 @@ export default defineConfig({
 		}),
 	],
 	build: {
-		lib: {
-			entry: 'src/main.ts',
-			formats: ['es'],
-			fileName: () => 'bundle.js',
-		},
 		outDir: 'dist',
 		minify: true,
 	},

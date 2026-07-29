@@ -1,20 +1,21 @@
 {
   "name": "@nsis/dent-desktop",
   "version": "0.1.0",
-  "exports": "./main.ts",
+  "exports": "./app.ts",
   "private": true,
   "exclude": ["src/", "vite.config.ts"],
   "tasks": {
     "bundle": "deno run --allow-all npm:vite build",
     "build": {
-      "command": "deno desktop --include=dist/bundle.js --output Dent main.ts",
+      "command": "deno desktop --unstable-kv --allow-env --allow-read --allow-write --allow-net --include=dist --output Dent app.ts",
       "dependencies": ["bundle"]
     },
     "dev": {
-      "command": "deno run --allow-read --allow-net --watch=dist/bundle.js main.ts",
+      "command": "deno run --unstable-kv --allow-env --allow-read --allow-write --allow-net --watch=dist app.ts",
       "dependencies": ["bundle"]
     },
-    "watch": "deno run --allow-all npm:vite build --watch"
+    "watch": "deno run --allow-all npm:vite build --watch",
+    "serve": "deno run --allow-all npm:vite"
   },
   "imports": {
     "@codemirror/commands": "npm:@codemirror/commands@^6.10.4",
@@ -30,13 +31,12 @@
   },
   "nodeModulesDir": "auto",
   "compilerOptions": {
-    "lib": ["deno.ns", "dom", "dom.iterable", "esnext"],
+    "lib": ["deno.ns", "deno.unstable", "dom", "dom.iterable", "esnext"],
     "verbatimModuleSyntax": true
   },
   "desktop": {
     "app": {
-      "name": "Dent",
-      "identifier": "org.nsis-dev.dent"
+      "name": "Dent"
     }
   }
 }
