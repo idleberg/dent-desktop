@@ -1,4 +1,9 @@
 import { mount } from 'svelte';
-import App from './App.svelte';
+import DentUI from '@nsis/dent-ui/DentUI.svelte';
 
-mount(App, { target: document.getElementById('app')! });
+mount(DentUI, {
+  target: document.getElementById('app')!,
+  props: {
+    strict: false,
+  }
+});
