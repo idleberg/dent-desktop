@@ -9,7 +9,7 @@ const WINDOW_WIDTH = 1100;
 const WINDOW_HEIGHT = 750;
 const WINDOW_TITLE = "Dent";
 
-const APP_IDENTIFIER = "org.nsis-dev.dent";
+const APP_IDENTIFIER = "org.idleberg.dent";
 const THEME_KEY = ["prefs", "theme"];
 const DEFAULT_THEME = "system";
 

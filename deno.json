@@ -37,7 +37,7 @@
   "desktop": {
     "app": {
       "name": "Dent",
-      "identifier": "org.nsis-dev.dent"
+      "identifier": "org.idleberg.dent"
     }
   }
 }
