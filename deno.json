@@ -21,13 +21,13 @@
     "@codemirror/commands": "npm:@codemirror/commands@^6.10.4",
     "@codemirror/language": "npm:@codemirror/language@^6.12.4",
     "@codemirror/state": "npm:@codemirror/state@^6.7.1",
-    "@codemirror/view": "npm:@codemirror/view@^6.43.7",
+    "@codemirror/view": "npm:@codemirror/view@^6.43.8",
     "@lezer/highlight": "npm:@lezer/highlight@^1.2.3",
     "@nsis/codemirror": "npm:@nsis/codemirror@^0.13.0",
-    "@nsis/dent-ui": "npm:@nsis/dent-ui@^0.2.3",
-    "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^7.2.0",
-    "svelte": "npm:svelte@^5.56.8",
-    "vite": "npm:vite@^8.1.5"
+    "@nsis/dent-ui": "npm:@nsis/dent-ui@^0.2.6",
+    "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^7.3.0",
+    "svelte": "npm:svelte@^5.56.9",
+    "vite": "npm:vite@^8.2.1"
   },
   "nodeModulesDir": "auto",
   "compilerOptions": {
