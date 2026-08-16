@@ -1,13 +1,13 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@codemirror/commands@^6.10.4": "6.10.4",
+    "npm:@codemirror/commands@^6.11.0": "6.11.0",
     "npm:@codemirror/language@^6.12.4": "6.12.4",
     "npm:@codemirror/state@^6.7.1": "6.7.1",
-    "npm:@codemirror/view@^6.43.8": "6.43.8",
+    "npm:@codemirror/view@^6.43.9": "6.43.9",
     "npm:@lezer/highlight@^1.2.3": "1.2.3",
     "npm:@nsis/codemirror@0.13": "0.13.0",
-    "npm:@nsis/dent-ui@~0.2.6": "0.2.6",
+    "npm:@nsis/dent-ui@~0.3.1": "0.3.1",
     "npm:@sveltejs/vite-plugin-svelte@^7.3.0": "7.3.0_svelte@5.56.9_vite@8.2.1",
     "npm:svelte@^5.56.9": "5.56.9",
     "npm:vite@^8.2.1": "8.2.1"
@@ -22,8 +22,8 @@
         "@lezer/common"
       ]
     },
-    "@codemirror/commands@6.10.4": {
-      "integrity": "sha512-Ryk9y9T0FFVF0cUGhAknveAyUOl/A1qReTFi+qPKtOh2Z9F4AUBz3XOrYD4ZEgZirdugVzHvd/2/Wcwy5OliTg==",
+    "@codemirror/commands@6.11.0": {
+      "integrity": "sha512-/K4Rl5BN0OtTiPWmJCdqODu38XnDMsDxKY5rgrPnCkutPTJf2wVbkoixLfealF5Kwse/s8P8M5jAiURiwSwnFA==",
       "dependencies": [
         "@codemirror/language",
         "@codemirror/state",
@@ -48,8 +48,8 @@
         "@marijn/find-cluster-break"
       ]
     },
-    "@codemirror/view@6.43.8": {
-      "integrity": "sha512-qtItTDssZ/5GFfi94hrILu9j/VUeFPDPkhovEfmWFj2ipTxnzPB8DdHgfbb8HYTzLTYhrndKmyQxXUz/PDLenw==",
+    "@codemirror/view@6.43.9": {
+      "integrity": "sha512-sTuUzTpPMFebRhg6dawChoKKgndIwfjmJgKVxBefPElcU2NwQ6AFroupk0SFqEerQyZOGRfDNnSN8Dw/lMAsXw==",
       "dependencies": [
         "@codemirror/state",
         "crelt",
@@ -111,8 +111,8 @@
         "@lezer/lr"
       ]
     },
-    "@nsis/codemirror@0.14.4": {
-      "integrity": "sha512-yz5shMwTd4RzWCuEmVKLz5g8kBil3fHhGuxSuezaulYjdNVka9xqIuFhUSpuA8Lcc3aL/HYlIH6rrMkcfXClQQ==",
+    "@nsis/codemirror@0.14.5": {
+      "integrity": "sha512-aYeQhpBSNzjrq7aMe5yllE4jiceJuEWQmB+YMMMoOs1Mi9j1D+YXEtdGrRivbcmDcoplKwGGIxZzJRBMUe1EVg==",
       "dependencies": [
         "@codemirror/autocomplete",
         "@codemirror/language",
@@ -121,21 +121,21 @@
         "@lezer/lr"
       ]
     },
-    "@nsis/dent-ui@0.2.6": {
-      "integrity": "sha512-25K6/n3L8qRZ5f2qk+Qyc9utjZyShIl+JJxI+vnRXurYrbIPG6KyXBxSE+QZ09KFDbrUsJhXHBcxje8SD/s8mg==",
+    "@nsis/dent-ui@0.3.1": {
+      "integrity": "sha512-hkSBORw7ksV9IxEIfyQ2wgKZPhqTvdkENLg3fJk1y4vBfB7fccL8knTK4BuD7rUGMV0RYJkK3vq5HqcGcqc9mA==",
       "dependencies": [
         "@codemirror/commands",
         "@codemirror/language",
         "@codemirror/state",
         "@codemirror/view",
         "@lezer/highlight",
-        "@nsis/codemirror@0.14.4",
+        "@nsis/codemirror@0.14.5",
         "@nsis/dent",
         "svelte"
       ]
     },
-    "@nsis/dent@0.14.0": {
-      "integrity": "sha512-RF7tnWG7vjBNp8luWfdtmZNa6PgPdvNaJBgypFnpeOIAAkcDLz50y7FJTsbSn95Wwx/Ls37UDsWQb61nR7oBJQ==",
+    "@nsis/dent@0.14.1": {
+      "integrity": "sha512-l+7tL2nO5/xO6Z/XMFMTLVG4S9SKQrKUDh/3K82JzqcXnRxTEUgvhaZ05IATSnHXAH+dp/2bkTh9PWMIQ6F8Xw==",
       "dependencies": [
         "@nsis/parser",
         "detect-newline"
@@ -500,13 +500,13 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:@codemirror/commands@^6.10.4",
+      "npm:@codemirror/commands@^6.11.0",
       "npm:@codemirror/language@^6.12.4",
       "npm:@codemirror/state@^6.7.1",
-      "npm:@codemirror/view@^6.43.8",
+      "npm:@codemirror/view@^6.43.9",
       "npm:@lezer/highlight@^1.2.3",
       "npm:@nsis/codemirror@0.13",
-      "npm:@nsis/dent-ui@~0.2.6",
+      "npm:@nsis/dent-ui@~0.3.1",
       "npm:@sveltejs/vite-plugin-svelte@^7.3.0",
       "npm:svelte@^5.56.9",
       "npm:vite@^8.2.1"

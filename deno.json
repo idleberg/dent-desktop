@@ -18,13 +18,13 @@
     "serve": "deno run --allow-all npm:vite"
   },
   "imports": {
-    "@codemirror/commands": "npm:@codemirror/commands@^6.10.4",
+    "@codemirror/commands": "npm:@codemirror/commands@^6.11.0",
     "@codemirror/language": "npm:@codemirror/language@^6.12.4",
     "@codemirror/state": "npm:@codemirror/state@^6.7.1",
-    "@codemirror/view": "npm:@codemirror/view@^6.43.8",
+    "@codemirror/view": "npm:@codemirror/view@^6.43.9",
     "@lezer/highlight": "npm:@lezer/highlight@^1.2.3",
     "@nsis/codemirror": "npm:@nsis/codemirror@^0.13.0",
-    "@nsis/dent-ui": "npm:@nsis/dent-ui@^0.2.6",
+    "@nsis/dent-ui": "npm:@nsis/dent-ui@^0.3.1",
     "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^7.3.0",
     "svelte": "npm:svelte@^5.56.9",
     "vite": "npm:vite@^8.2.1"
