@@ -10,6 +10,7 @@
     "npm:@nsis/dent-ui@~0.3.3": "0.3.3",
     "npm:@sveltejs/vite-plugin-svelte@^7.3.0": "7.3.0_svelte@5.56.10_vite@8.2.2",
     "npm:svelte@^5.56.10": "5.56.10",
+    "npm:vite@*": "8.2.2",
     "npm:vite@^8.2.2": "8.2.2"
   },
   "npm": {
