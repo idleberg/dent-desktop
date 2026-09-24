@@ -22,10 +22,10 @@
     "@codemirror/language": "npm:@codemirror/language@^6.12.4",
     "@codemirror/state": "npm:@codemirror/state@^6.7.6",
     "@codemirror/view": "npm:@codemirror/view@^6.43.13",
-    "@lezer/highlight": "npm:@lezer/highlight@^1.2.3",
+    "@lezer/highlight": "npm:@lezer/highlight@^1.2.4",
     "@nsis/codemirror": "npm:@nsis/codemirror@^0.13.0",
-    "@nsis/dent-ui": "npm:@nsis/dent-ui@^0.3.4",
-    "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^7.3.0",
+    "@nsis/dent-ui": "npm:@nsis/dent-ui@^0.3.5",
+    "@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^7.3.1",
     "svelte": "npm:svelte@^5.57.1",
     "vite": "npm:vite@^8.3.0"
   },
